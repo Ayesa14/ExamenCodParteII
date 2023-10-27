@@ -25,5 +25,9 @@ Para utilizarlo en el examen
 
     9. Añadimos todos los ficheros a los que queremos hacer un commit. git add src/ README.md/ 
 
+    10. Hacemos el commit. git commit -m "Texto"
+
+    11. Subimos los cambios al repositorio
+
 
 
