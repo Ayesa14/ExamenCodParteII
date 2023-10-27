@@ -21,6 +21,8 @@ Para utilizarlo en el examen
 
     7. Añadimos al .gitignore los archivos que no queremos que se incluyan. Nos situamos en el IntelliJ -> Git -> Add to .gitignore
 
+        + Hemos añadido esos archivos porque no son necesarios para el repositorio, ni para la persona que vaya a utilizarlo después porque son archivos del software que estamos usando, y el colaborador que quiera usar este repositorio puede estar usando otro programa para ello
+
     8. En el menú que hay en la derecha, los archivos añadidos al .gitignore deberán ponerse en verde en vez de en rojo
 
     9. Añadimos todos los ficheros a los que queremos hacer un commit. git add src/ README.md/ 
@@ -36,6 +38,28 @@ Para utilizarlo en el examen
     14. Hacemos un commit para dejar reflejado el añadido del .gitignore y los cambios en el README
 
     15. Lo subimos al repositorio git push <nombre que le hayas puesto al clonarlo> main
+
+    16. Para hacer el ejecutable nos situamos en el .java y vamos a File -> Project Structure -> Artifacts -> Jar -> from modules with dependencies
+
+    17. Seleccionar Main o la clase que sea -> Apply -> Ok
+
+    18. Después Build -> Build Artifacts
+
+    19. Si hubiera error con la versión de Java, hay que ir a Project Structure -> Project -> Language Level. Y cambiarlo a una versión anterior
+
+    20. Se creará la carpeta out en el proyecto
+
+    21. Añadimos el .jar y el README.md para hacer el commit de los cambios
+
+    22. Hacemos commit. git commit -m "texto"
+
+    23. Y lo subimos al repositorio. git push <nombre que le hayas puesto al clonarlo> main
+
+    24. Si queremos ejecutarlo, nos vamos con el comando cd y buscamos la carpeta artifacts
+
+    25. Lo ejecutamos. java -jar Nombre.jar
+
+    
 
 
 
