@@ -27,7 +27,15 @@ Para utilizarlo en el examen
 
     10. Hacemos el commit. git commit -m "Texto"
 
-    11. Subimos los cambios al repositorio
+    11. Cambiamos la rama a main. git branch -M main
+
+    12. Subimos los cambios al repositorio. git push <nombre que le hayas puesto al clonarlo> main
+
+    13. Añadimos el .gitignore. Para ello nos colocamos en la carpeta .idea y después git add .gitignore
+
+    14. Hacemos un commit para dejar reflejado el añadido del .gitignore y los cambios en el README
+
+    15. Lo subimos al repositorio git push <nombre que le hayas puesto al clonarlo> main
 
 
 
